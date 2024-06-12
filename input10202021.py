@@ -1,0 +1,8 @@
+first_name = input("enter first name ")
+last_name = input("enter  last name ")
+age  =  int(input("enter you age  "))
+test_score = float(input("enter test score "))
+print (first_name +  " = " + str(type(first_name)))
+print (last_name +  " = " + str(type(last_name)))
+print (str(age) +  " = " + str(type(age)))
+print (str(test_score) +  " = " + str(type(test_score)))
