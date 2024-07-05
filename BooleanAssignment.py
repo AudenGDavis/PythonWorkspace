@@ -6,7 +6,7 @@ else:
 
 
 input2 = input("enter a word: ")
-if len(input2) > 3 and len(input2) < 8:
+if len(cinput2) > 3 and len(input2) < 8:
     print ("word is good")
 else:
     print ("word is not good")
