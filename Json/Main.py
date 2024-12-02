@@ -21,3 +21,5 @@ my_dog = Dog(name="Buddy", breed="Golden Retriever", age=3)
 
 jsonString = json.dumps(my_dog.to_dict())
 print(jsonString)
+print(json.loads(jsonString))
+
