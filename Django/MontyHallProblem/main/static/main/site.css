@@ -1,0 +1,67 @@
+.closedDoor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: saddlebrown;
+    text-align: center; /* Ensures the text is centered within the div */
+    
+    height: 80%;
+    width: 20%;
+    border: 10px solid black;
+    font-size: 50px;
+    margin-left: 0;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.openedDoor {
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;     /* Centers text vertically */
+    text-align: center; /* Ensures the text is centered within the div */
+    
+    height: 80%;
+    width: 20%;
+    border: 10px solid black;
+    font-size: 50px;
+    margin-left: 0;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.doorContainer{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    justify-content: space-evenly;
+    display: flex;
+    vertical-align: top;
+    width: 100vw;
+    height: 60%;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.titleBox{
+    position: absolute;
+    background-color: green;
+    width: 50%;
+    left:25%;
+
+    border: 10px solid black;
+}
+
+.textBox{
+    position: absolute;
+    left:0;
+    height: 30%;
+    width: 100%;
+    bottom:0;
+}
+
+body{
+    background-color: brown;
+}

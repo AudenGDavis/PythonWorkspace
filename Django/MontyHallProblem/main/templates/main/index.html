@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Monty Hall Problem</title>   
+
+        
+    
+    </head>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/site.css' %}">
+    <Body>
+        <div class="titleBox">
+            <h1>Monty Hall Problem</h1>
+        </div>
+        
+        <div class="doorContainer">
+            <button class="openedDoor" id="slot1">
+                Door 1
+            </button>
+            <button class="openedDoor" id="slot2">
+                Door 2
+            </button>
+            <button class="openedDoor" id="slot3">
+                Door 3
+            </button>
+        </div>
+        <div class="doorContainer">
+            <button class="closedDoor" id="door1">
+                Door 1
+            </button>
+            <button class="closedDoor" id="door2">
+                Door 2
+            </button>
+            <button class="closedDoor" id="door3">
+                Door 3
+            </button>
+        </div>
+        <div class="textBox">
+            <h1 id="prompField">Pick a door to start.</h1>
+        </div>
+
+        
+        
+    </Body>
+
+    <script src="{% static 'main/script.js' %}?v={{ timestamp }}"></script>
+</html>
