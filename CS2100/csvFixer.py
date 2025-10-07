@@ -9,7 +9,7 @@ import os
 # it as two values, which shifts all the data to the right.
 
 # This program goes through "data/311_Cases_SF.csv", adds
-# the commas before and after the "Point" value and adds it
+# the quotes before and after the "Point" value and adds it
 # to a given output file.
 
 # HOW TO RUN
