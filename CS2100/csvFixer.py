@@ -15,7 +15,7 @@ import os
 # HOW TO RUN
 # 1. copy this script to f25-hw3-AudenGDavis/data/
 # 2. run this python script from the terminal with the following arguments
-#     $ python data/rescue.py -to data/311_Cases_SF_Corrected.csv
+#     $ python data/csvFixer.py -to data/311_Cases_SF_Corrected.csv
 
 # This was written by Auden Davis.
 
